@@ -106,94 +106,76 @@ const Detail = () => {
                   <p className='flex flex-col scroll-m-1 py-5'>Hai pháp sư, một thầy phong thuỷ và một chuyên gia khâm liệm cùng hợp lực khai quật ngôi mộ bị nguyền rủa của một gia đình giàu có, nhằm cứu lấy sinh mạng hậu duệ cuối cùng trong dòng tộc. Bí mật hắc ám của tổ tiên được đánh thức.</p>
                   <div className="flex justify-between items-center py-5">
                     <p className="text-2xl font-thin">Điễn Viên</p>
-                   
+
                   </div>
 
 
-                  {/* <div className="w-full overflow-hidden">
+                  <div className="w-full overflow-hidden">
                     <Carousel
                       dots={false}  // Ẩn các dấu chấm
-                      arrows={false}  // Hiển thị mũi tên điều hướng
+                      arrows={true}  // Hiển thị mũi tên điều hướng
                       autoplay={true}  // Tự động chuyển slide
-                      slidesToShow={7}  // Số slide hiển thị cùng lúc
+                      slidesToShow={6}  // Số slide hiển thị cùng lúc
                       infinite={true}  // Vòng lặp vô hạn
-                      responsive={responsiveSettings} 
                     >
-                      <div>
-                        <img
-                          src="https://www.vietnamworks.com/hrinsider/wp-content/uploads/2023/12/anh-rose-blackpink-cute-06.jpg"
-                          alt="Slide 1"
-                          className="w-24 h-24 rounded-full mr-10"
-                        />
-                      </div>
-                      <div>
-                        <img
-                          src="https://www.vietnamworks.com/hrinsider/wp-content/uploads/2023/12/anh-rose-blackpink-cute-06.jpg"
-                          alt="Slide 2"
-                          className="w-24 h-24 rounded-full mr-10"
-                        />
-                      </div>
-                      <div>
-                        <img
-                          src="https://www.vietnamworks.com/hrinsider/wp-content/uploads/2023/12/anh-rose-blackpink-cute-06.jpg"
-                          alt="Slide 3"
-                          className="w-24 h-24 rounded-full mr-10"
-                        />
-                      </div>
-                      <div>
-                        <img
-                          src="https://www.vietnamworks.com/hrinsider/wp-content/uploads/2023/12/anh-rose-blackpink-cute-06.jpg"
-                          alt="Slide 4"
-                          className="w-24 h-24 rounded-full mr-10"
-                        />
-                      </div>
-                      <div>
+                      <div className="flex flex-col items-center justify-center">
                         <img
                           src="https://www.vietnamworks.com/hrinsider/wp-content/uploads/2023/12/anh-rose-blackpink-cute-06.jpg"
                           alt="Slide 5"
-                          className="w-24 h-24 rounded-full mr-10"
+                          className="w-24 h-24 rounded-full"
                         />
                       </div>
-                      <div>
+
+                      <div className="flex flex-col items-center justify-center">
                         <img
                           src="https://www.vietnamworks.com/hrinsider/wp-content/uploads/2023/12/anh-rose-blackpink-cute-06.jpg"
                           alt="Slide 5"
-                          className="w-24 h-24 rounded-full mr-10"
+                          className="w-24 h-24 rounded-full"
                         />
                       </div>
-                      <div>
+
+                      <div className="flex flex-col items-center justify-center">
                         <img
                           src="https://www.vietnamworks.com/hrinsider/wp-content/uploads/2023/12/anh-rose-blackpink-cute-06.jpg"
                           alt="Slide 5"
-                          className="w-24 h-24 rounded-full mr-10"
+                          className="w-24 h-24 rounded-full"
                         />
                       </div>
-                      <div>
+                      <div className="flex flex-col items-center justify-center">
                         <img
                           src="https://www.vietnamworks.com/hrinsider/wp-content/uploads/2023/12/anh-rose-blackpink-cute-06.jpg"
                           alt="Slide 5"
-                          className="w-24 h-24 rounded-full mr-10"
+                          className="w-24 h-24 rounded-full"
                         />
                       </div>
-                      <div>
+                      <div className="flex flex-col items-center justify-center">
                         <img
                           src="https://www.vietnamworks.com/hrinsider/wp-content/uploads/2023/12/anh-rose-blackpink-cute-06.jpg"
                           alt="Slide 5"
-                          className="w-24 h-24 rounded-full mr-10"
-                        />
-                      </div>
-                      <div>
-                        <img
-                          src="https://www.vietnamworks.com/hrinsider/wp-content/uploads/2023/12/anh-rose-blackpink-cute-06.jpg"
-                          alt="Slide 5"
-                          className="w-24 h-24 rounded-full mr-10"
+                          className="w-24 h-24 rounded-full"
                         />
                       </div>
                     </Carousel>
-                  </div> */}
+                  </div>
 
+                  <p className="text-2xl font-thin py-5">TRAILER</p>
+                  <div className='flex justify-between items-center w-full'>
+                    <iframe
+                      className="bg-red-400 rounded-lg
+                      "
+                      width="400"
+                      height="200"
+                      src="https://www.youtube.com/embed/zoEtcR5EW08"
+                      title="YouTube video player"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    ></iframe>
+                  </div>
+                  <div>
+                  </div>
                 </div>
               </div>
+           <footer></footer>
             </div>
           </div>
 
