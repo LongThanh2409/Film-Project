@@ -50,7 +50,7 @@ const Detail = () => {
 
   return (
     <>
-      <section className="w-full overflow-hidden dark:bg-gray-900">
+      <section className="w-full overflow-hidden dark:bg-gray-900 relative">
         <div className="flex flex-col">
           <img
             src="https://afamilycdn.com/150157425591193600/2024/3/14/ngang-copy-15-1829-1710427118402-17104271187901682991653.jpg"
@@ -61,10 +61,10 @@ const Detail = () => {
             <img
               src="https://newsmd2fr.keeng.vn/tiin/archive/imageslead/2024/03/15/5n9vsqwpacthbap3t9csmlldpjg90ayw.jpg"
               alt="User Profile"
-              className="rounded-md lg:w-[20rem] lg:h-[25rem] md:w-[15rem] md:h-[15rem] sm:w-[8rem] sm:h-[8rem] xs:w-[7rem] xs:h-[7rem] outline outline-2 outline-offset-2 outline-blue-500 relative lg:bottom-[5rem] sm:bottom-[4rem] xs:bottom-[3rem]"
+              className="rounded-md lg:w-[20rem] lg:h-[25rem] md:w-[15rem] md:h-[15rem] sm:w-[8rem] sm:h-[8rem] xs:w-[7rem] xs:h-[7rem] outline outline-2 outline-offset-2 outline-blue-500 relative lg:bottom-[16rem] sm:bottom-[4rem] xs:bottom-[3rem]"
             />
 
-            <div className="container mx-auto px-4 sm:px-16 flex-1">
+            <div className="container mx-auto px-4 sm:px-16 flex-1 relative lg:bottom-[16rem] sm:bottom-[4rem] xs:bottom-[3rem] ">
               <div className="text-left text-gray-800 dark:text-white">
                 <h1 className="font-serif text-3xl sm:text-4xl">EXHUMA</h1>
                 <div className="py-3 font-sans text-lg">
@@ -81,14 +81,14 @@ const Detail = () => {
                     <Button icon={<PlusOutlined />}>Bộ sưu tập</Button>
                   </Dropdown>
 
-                  <div className="flex flex-row sm:justify-end space-x-4 sm:ml-auto mt-4">
+                  <div className="flex flex-row sm:justify-end space-x-4 sm:ml-auto mt-4 text-end">
                     <Button className="w-20 h-10">Kinh dị</Button>
                     <Button className="w-20 h-10">Giật gân</Button>
                     <Button className="w-20 h-10">Bí ẩn</Button>
                   </div>
                 </div>
 
-                <div className="py-10">
+                <div className="py-20">
                   <div className="flex flex-col sm:flex-row sm:space-x-14 items-center">
                     <p className="font-serif text-xl">Đạo diễn</p>
                     <a href="" className="font-serif text-sm">Jang Jae-hyun</a>
@@ -110,7 +110,7 @@ const Detail = () => {
                   </div>
 
 
-                  <div className="w-full overflow-hidden">
+                  {/* <div className="w-full overflow-hidden">
                     <Carousel
                       dots={false}  // Ẩn các dấu chấm
                       arrows={false}  // Hiển thị mũi tên điều hướng
@@ -190,7 +190,7 @@ const Detail = () => {
                         />
                       </div>
                     </Carousel>
-                  </div>
+                  </div> */}
 
                 </div>
               </div>
